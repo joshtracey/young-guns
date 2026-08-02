@@ -181,8 +181,6 @@
       width: 90px;
       white-space: nowrap;
     }
-    table.roster .num.tbd { color: var(--muted); font-size: 1.1rem; }
-
     table.roster .name {
       font-weight: 500;
       font-size: 1.05rem;
@@ -209,14 +207,6 @@
       color: var(--navy);
     }
 
-    .note {
-      padding: 18px 64px 0;
-      color: var(--muted);
-      font-size: 0.85rem;
-      font-style: italic;
-      line-height: 1.6;
-    }
-
     /* FOOTER */
     footer {
       margin-top: 56px;
@@ -232,14 +222,14 @@
     @media (max-width: 900px) {
       header { padding: 32px 28px 24px; }
       .playlist-link span { display: none; }
-      .season-label, .note { padding-left: 28px; padding-right: 28px; }
+      .season-label { padding-left: 28px; padding-right: 28px; }
       .table-wrap { padding: 0 28px; }
       footer { padding: 0 28px; }
     }
     @media (max-width: 520px) {
       header { padding: 20px 16px; gap: 14px; }
       .logo-puck { width: 52px; height: 52px; }
-      .season-label, .note { padding-left: 16px; padding-right: 16px; }
+      .season-label { padding-left: 16px; padding-right: 16px; }
       .table-wrap { padding: 0 16px; }
       footer { padding: 0 16px; }
     }
@@ -250,7 +240,7 @@
       header { padding: 60px 96px 40px; }
       .logo-puck { width: 100px; height: 100px; }
       .season-label { padding: 48px 96px 20px; }
-      .table-wrap, .note { padding-left: 96px; padding-right: 96px; }
+      .table-wrap { padding-left: 96px; padding-right: 96px; }
       table.roster { font-size: 1.05rem; }
       footer { padding: 0 96px; }
     }
@@ -341,6 +331,11 @@
         <td><span class="pos">Forward</span></td>
       </tr>
       <tr>
+        <td class="num">18</td>
+        <td class="name">Jake Vautour</td>
+        <td><span class="pos defence">Defence</span></td>
+      </tr>
+      <tr>
         <td class="num">29</td>
         <td class="name">Jack Price</td>
         <td><span class="pos defence">Defence</span></td>
@@ -365,18 +360,9 @@
         <td class="name">Alexis Hache</td>
         <td><span class="pos defence">Defence</span></td>
       </tr>
-      <tr>
-        <td class="num tbd">TBD</td>
-        <td class="name">Malik Jacob Arseneau</td>
-        <td><span class="pos defence">Defence</span></td>
-      </tr>
     </tbody>
   </table>
 </div>
-
-<p class="note">
-  Malik Jacob Arseneau’s jersey number has not been assigned yet.
-</p>
 
 <footer>
   <p>U9 NB Young Guns · Saint John, NB · <a href="https://traceyfamily.ca">traceyfamily.ca</a></p>

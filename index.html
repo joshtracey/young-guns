@@ -312,6 +312,41 @@
     .platform-dot.youtube { background: #ff4444; }
     .platform-dot.xbotgo { background: #00c2a8; }
 
+    /* TIMEZONE BANNER */
+    .tz-banner {
+      margin: 0 64px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: rgba(245,200,66,0.1);
+      border: 2px solid var(--gold);
+      border-radius: 10px;
+      padding: 16px 22px;
+    }
+    .tz-banner svg {
+      flex-shrink: 0;
+      color: var(--gold);
+    }
+    .tz-banner .tz-text {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      line-height: 1.3;
+    }
+    .tz-banner .tz-text strong { color: var(--gold); }
+    .tz-banner .tz-sub {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-family: 'Barlow', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      text-transform: none;
+    }
+
     /* SCHEDULE TABLE */
     .table-wrap {
       padding: 0 64px;
@@ -426,6 +461,7 @@
       .live-bar, .backup-bar { padding-left: 28px; padding-right: 28px; }
       .season-label, .note { padding-left: 28px; padding-right: 28px; }
       .game-grid, .table-wrap { padding: 0 28px; }
+      .tz-banner { margin-left: 28px; margin-right: 28px; }
       .game-grid { gap: 20px; }
       footer { padding: 0 28px; }
     }
@@ -435,6 +471,7 @@
       .live-bar, .backup-bar { padding-left: 16px; padding-right: 16px; }
       .season-label, .note { padding-left: 16px; padding-right: 16px; }
       .game-grid, .table-wrap { padding: 0 16px; }
+      .tz-banner { margin-left: 16px; margin-right: 16px; padding: 14px 16px; }
       .game-grid { grid-template-columns: 1fr; }
       footer { padding: 0 16px; }
     }
@@ -447,6 +484,7 @@
       .season-label { padding: 48px 96px 20px; }
       .game-grid { padding: 0 96px; gap: 36px; grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); }
       .table-wrap, .note { padding-left: 96px; padding-right: 96px; }
+      .tz-banner { margin-left: 96px; margin-right: 96px; }
       table.schedule { font-size: 1.05rem; }
       .watch-btn { font-size: 1.2rem; padding: 16px 28px; }
       footer { padding: 0 96px; }
@@ -535,9 +573,17 @@
   <span class="sub">August 7–9, 2026 · Young Guns games, semifinals &amp; final</span>
 </div>
 
+<div class="tz-banner">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+  <div class="tz-text">
+    All times shown are <strong>EDT</strong> — add 1 hour for <strong>ADT</strong>
+    <span class="tz-sub">Example: an 8:30 AM EDT game is 9:30 AM Atlantic time in New Brunswick.</span>
+  </div>
+</div>
+
 <div class="table-wrap">
   <table class="schedule">
-    <caption>All times local. Venue: Cyclones Rink 1 &amp; Rink 2.</caption>
+    <caption>Venue: Cyclones Rink 1 &amp; Rink 2.</caption>
     <thead>
       <tr>
         <th scope="col">Day</th>
