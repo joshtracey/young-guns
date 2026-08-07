@@ -17,8 +17,6 @@
 # drop the button.
 # ---------------------------------------------------------------
 
-show: no
+show: yes
 level: warn
-text: YouTube stream is down — use the XbotGo backup instead.
-link: https://cloud.xbotgo.net/live?userId=MjAyNTE5Nzc5MDM5ODA2MjU5Mg==&language=en_US&region=US
-linktext: Open XbotGo backup
+text: Sorry, the first game could not be live-streamed due to tech issues (wifi blocking, poor cell reception).  I am uploading the game and troubleshooting for the next game.  If you have  live barn subscription that appears to work as well, search for Cyclones.
