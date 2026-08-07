@@ -1,0 +1,24 @@
+# ---------------------------------------------------------------
+# LIVE STATUS BANNER
+#
+# Edit this file from the GitHub app to put a banner at the top of
+# the site. Change "show" to yes, write your message, save/commit.
+# The site picks it up about a minute later.
+#
+# Set "show: no" to take the banner down.
+# Lines starting with # are ignored.
+#
+# level:  live  = red, pulsing dot (game is on right now)
+#         warn  = gold (something is broken / heads up)
+#         good  = green (all clear, stream is back)
+#         info  = blue (general note)
+#
+# link / linktext are optional. Delete the text after the colon to
+# drop the button.
+# ---------------------------------------------------------------
+
+show: no
+level: warn
+text: YouTube stream is down — use the XbotGo backup instead.
+link: https://cloud.xbotgo.net/live?userId=MjAyNTE5Nzc5MDM5ODA2MjU5Mg==&language=en_US&region=US
+linktext: Open XbotGo backup
