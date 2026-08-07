@@ -19,5 +19,4 @@
 
 show: yes
 level: warn
-text: Xbotgo live - see link below.
-text: If you have  live barn subscription that appears to work as well, search for Cyclones.
+text: Xbotgo live - see link below. If you have  live barn subscription that appears to work as well, search for Cyclones.
