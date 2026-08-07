@@ -19,5 +19,5 @@
 
 show: yes
 level: warn
-text: YouTube stream for game 2 live.  https://www.youtube.com/live/WE4q1vSF000?si=EgKEqIA6pz6K5bDW
+text: Xbotgo live - see link below.
 text: If you have  live barn subscription that appears to work as well, search for Cyclones.
