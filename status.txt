@@ -19,4 +19,4 @@
 
 show: yes
 level: warn
-text: Check XBotGo for livestream of semis, will try again with some troubleshooting.  If you have  live barn subscription that appears to work as well, search for Cyclones.
+text: Sorry again, livestream won't work.  Game will be recorded and pushed to youtube after the game.  If you have  live barn subscription that appears to work as well, search for Cyclones.
